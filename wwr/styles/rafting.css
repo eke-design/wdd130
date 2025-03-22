@@ -1,0 +1,73 @@
+/* rafting.css */
+
+/* Define CSS variables */
+:root {
+    --primary-color: #4047f0; 
+    --secondary-color: #17bf3b; 
+    --accent1-color: #0f0d0e;
+    --accent2-color: #c41e87; 
+  }
+  
+  /* Limit the width of the page */
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--background-color);
+  }
+  
+  /* Style headings and paragraph elements */
+  h1, h2 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    color: var(--text-color);
+  }
+  
+  /* Remove underlines from social media image links */
+  .social-media a {
+    text-decoration: none;
+  }
+  
+  /* Style social media icons */
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+  
+  /* Style hero section */
+  .hero {
+    background-image: url('rafting-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+  }
+  
+  /* Style article section */
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  article img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  
+  article p {
+    font-size: 18px;
+    margin: 20px;
+  }
+  
