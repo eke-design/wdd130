@@ -1,0 +1,94 @@
+/* Header and Footer Styling */
+header, footer, .grid {
+    max-width: 840px; /* Replace invalid auto with a specific width */
+    margin: 0 auto; /* Center content */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff; /* White text for contrast */
+    background-color: steelblue;
+}
+
+/* Aside Section Styling */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Fix for slight transparency */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Main Image Styling */
+main img {
+    width: 150px; /* Smaller width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Paragraph Styling */
+p {
+    padding: 0;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 15px; /* Ensure this is defined once */
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+/* Add a Bottom Border to h1 */
+h1 {
+    border-bottom: 2px solid #333; /* Darker border */
+    padding-bottom: 0.5rem; /* Space below text */
+    margin-bottom: 1rem; /* Add spacing below h1 */
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 1/3 aside, 2/3 main */
+    gap: 20px; /* Space between grid items */
+}
+
+aside {
+    grid-column: 1; /* Place aside in the first column */
+    grid-row: 1;
+}
+
+main {
+    grid-column: 2; /* Place main in the second column */
+    grid-row: 1;
+}
+
+/* Remove Redundant Declarations */
+/* Ensure @font-face is defined only once with valid properties */
+@font-face {
+    font-family: 'YourFontName';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('path-to-font-file.woff2') format('woff2'); /* Define once */
+    unicode-range: U+000-5FF; /* Example range */
+}

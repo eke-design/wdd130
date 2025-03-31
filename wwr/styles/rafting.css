@@ -13,8 +13,8 @@ body {
     font-family: var(--paragraph-font);
 }
 
-/* Header styles */
-/* header {
+Header styles */
+header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
@@ -27,12 +27,12 @@ body {
     width: 100px;
     cursor: pointer;
     margin: 1rem;
-} */
+}
 
 header img {
     width: 100px;
 }
-/* nav {
+/* /*  nav {
     display: flex;
     justify-content:right;
     align-items: center;
@@ -45,7 +45,7 @@ nav a {
     font-size: 1.2rem;
     font-weight: 700;
     color: #fff;
-} */
+}
 
 .hero {
     position: relative;
@@ -99,7 +99,7 @@ h2{
     float: right;
     width: 100px;
     margin-left: 20px;
-}
+} */
 
 
 main {
