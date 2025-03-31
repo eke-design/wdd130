@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Header and Footer Styling */
 header, footer, .grid {
     max-width: 840px; /* Replace invalid auto with a specific width */
@@ -24,16 +30,24 @@ nav a {
     background-color: steelblue;
 }
 
-/* Aside Section Styling */
-aside {
-    width: 20rem;
+.box{
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* Fix for slight transparency */
     padding: 1rem;
-    background-color: #eee;
+    border: 1px solid #ccc;
+    background-color: #f4f4f9;
     color: #333;
-    text-align: center;
 }
+/* Aside Section Styling */
+/* aside h2{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    } */
 
 aside img {
     width: 200px; /* Fixed width */
@@ -42,6 +56,9 @@ aside img {
 
 /* Main Image Styling */
 main img {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     width: 150px; /* Smaller width */
     height: auto; /* Maintain aspect ratio */
 }
