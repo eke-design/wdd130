@@ -234,15 +234,29 @@ footer {
 
 footer p {
     margin: 0;
+    flex: 1;
 }
 
-.sociallinks img{
-    color: aliceblue;
-    text-decoration: none;
-    width: 20px;
-    margin-left: 10px;
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-footer .social-links a:hover {
-    color: black;
+.sociallinks a {
+    display: inline-block;
+    margin-left: 15px;
 }
+
+.sociallinks img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.sociallinks a:hover img {
+    filter: brightness(0.8);
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
