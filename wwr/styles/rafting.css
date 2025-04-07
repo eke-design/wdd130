@@ -132,7 +132,7 @@ section img {
     margin: 10px 0;
 }
 
-.history {
+/* .history {
     padding: 2rem;
     margin: 0 auto;
     max-width: 1200px;
@@ -178,7 +178,7 @@ section img {
     padding-left: 1rem;
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
-}
+} */
 
 /* Adventure section styling */
 .adventure {
@@ -187,7 +187,7 @@ section img {
     max-width: 1200px;
 }
 
-.adventure h2 {
+/* .adventure h2 {
     text-align: center;
     color: var(--accent1-color);
     font-family: var(--heading-font);
@@ -221,7 +221,7 @@ section img {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     font-size: 0.9rem;
-}
+} */
 
 footer {
     background-color: var(--accent2-color);
