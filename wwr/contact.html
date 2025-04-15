@@ -24,92 +24,100 @@
             </ul>
         </nav>
     </header>
-    <!-- Hero Section -->
+    
+    <!-- Main Content -->
     <main>
         
-        <section class="team-profiles">
-            <h2>Meet Our dynamic team members</h2>
+        <section class="team-section">
+            <h1>Meet Our Dynamic Team Members</h1>
             <p>We're here to help you plan your next rafting adventure. <br>
                 Reach out to our team with any questions or to book your trip today!</p>
             <div class="employee-profiles">
                 <figure class="employee">
                     <img src="images/happy1.jpg" alt="Peace Ekeng">
-                    <figcaption> Peace Ekeng, Head Guider</figcaption>
+                    <figcaption>Peace Ekeng, Head Guide</figcaption>
                 </figure>
                 <figure class="employee">
                     <img src="images/happy2.jpg" alt="Asibong Ekeng">
-                    <figcaption> Asibong Ekeng, Safety Director</figcaption>
+                    <figcaption>Asibong Ekeng, Safety Director</figcaption>
                 </figure>
                 <figure class="employee">
                     <img src="images/happy3.jpg" alt="Glory Ekeng">
-                    <figcaption> Glory Ekeng, Customer Experience Manager</figcaption>
+                    <figcaption>Glory Ekeng, Customer Experience Manager</figcaption>
                 </figure>
                 <figure class="employee">
                     <img src="images/happy4.jpg" alt="David Ekeng">
-                    <figcaption> David Ekeng, Technical Director</figcaption>
+                    <figcaption>David Ekeng, Technical Director</figcaption>
                 </figure>
             </div>
         </section>
-        <section class="contact-info">
+        
+        <section class="contact-info-section">
             <h2 class="title">Reach Our Team</h2>
-            
             <div class="content">
                 <div class="info">
-                    <h3>Global Office</h3>
+                    <h2>Global Office</h2>
                     <p><strong>Phone:</strong> <a href="tel:07036648339">07036648339</a></p>
                     <p><strong>Email:</strong> <a href="mailto:ekengeke10@gmail.com">ekengeke10@gmail.com</a></p>
                     <p><strong>Address:</strong> No 111 Anansa Road, Calabar, Nigeria</p>
                 </div>
         
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15898.632921117734!2d8.3417014!3d4.996312250000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1744117784830!5m2!1sen!2sng" style="width: 100%; height: 300px; border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15898.632921117734!2d8.3417014!3d4.996312250000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1744117784830!5m2!1sen!2sng" class="google-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
          
-        <section class="contact-form">
+        <section class="contact-form-section">
             <h2>Send Us a Message</h2>
-            <p class="centered-text">Send us a message and we'll respond within 24 hours</p>
-            <form action="#" method="post" class="form-layout">
-                <div class="form-group name">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <p class=>Send us a message and we'll respond within 24 hours</p>
+            <form action="#" method="post">
+                <div class="form-layout">
+                    <div class="form-group name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
                 </div>
-                <div class="form-group email">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <div class="form-group">
+                    <p>Your message:</p>
+                    <div class="radio-options">
+                        <div class="radio-option">
+                            <input type="radio" id="general" name="purpose" value="general" required>
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Send Message</button>
                 </div>
             </form>
-            <div class="form-group">
-                <p>Your message:</p>
-                 <div class="radio-options">
-                    <div class="radio-option">
-                        <input type="radio" id="general" name="purpose" value="general" required>
-                        <label for="general">General Inquiry</label>
-                    </div>
-                    <div class="radio-option">
-                        <input type="radio" id="reservation" name="purpose" value="reservation">
-                        <label for="reservation">Reservation Question</label>
-                    </div>
-                    <div class="radio-option">
-                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                        <label for="suggestion">Website Suggestion</label>
-                    </div>
-                </div>
-            </div>    
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>    
-            <div class="form-group checkbox">
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-            </div> 
-            <div class="form-group">
-                <button type="submit" class="submit-btn">Send Message</button>
-            </div>
         </section>
     </main>
+    
     <footer>
         <p>&copy; 2025 💕💕 Whitewater Rafting Inc. by Ekeng E. Ekeng</p>
         <nav class="sociallinks">
@@ -117,6 +125,9 @@
             <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
             <a href="https://www.whatsapp.com"><img src="images/whatsapp.svg" alt="Whatsapp"></a>
         </nav>
+        <div class="wireframe-link">
+            <a href="https://app.moqups.com/Ceb4nU9xoVvP3fLziBOfpcSilnHSoz0C/view/page/ad12de680">Contact Us Wireframe</a>
+        </div>
     </footer>
 </body>
 </html>
